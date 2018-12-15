@@ -1,0 +1,82 @@
+@font-face{font-family:Helvetica;font-weight:400;font-style:normal;src:url("fonts/helvetica.woff2") format("woff2"),url('fonts/helvetica.woff2')}
+@font-face{font-family:Helvetica;font-weight:700;font-style:normal;src:url("fonts/helvetica_bold.woff2") format("woff2"),url('fonts/helvetica_bold.woff2')}
+@font-face {
+  font-family: "VCROSDMono";
+  src: url("fonts/VCR.eot"); /* IE9 Compat Modes */
+  src: url("fonts/VCR-.eot#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/VCR.otf") format("opentype"), /* Open Type Font */
+    url("fonts/VCR.svg") format("svg"), /* Legacy iOS */
+    url("fonts/VCR.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("fonts/VCR.woff") format("woff"), /* Modern Browsers */
+    url("fonts/VCR.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-size: 0.75vw;
+  color: #fff;
+  font-family: "VCROSDMono";
+  text-shadow: black 2px 2px 1px, black -2px 2px 1px, black -2px -2px 1px, black 2px -2px 1px, black 0px 2px 1px, black 0px -2px 1px, black 2px 0px 1px, black -2px 0px 1px;
+}
+
+.vhs-bg {
+  background-image: url("face.gif");
+  background-size: cover;
+}
+
+.referral-link {
+  text-decoration: none;
+}
+
+.font-hel-white-shadow {
+  margin: 0;
+  color: #fff;
+  font-family:Helvetica,"Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+  text-shadow: black 2px 2px 1px, black -2px 2px 1px, black -2px -2px 1px, black 2px -2px 1px, black 0px 2px 1px, black 0px -2px 1px, black 2px 0px 1px, black -2px 0px 1px;
+} .hel-bond {font-weight: 700;} .hel-light {font-weight: 400;}
+
+.font-vhs-white-shadow {
+  margin: 0;
+  color: #fff;
+  font-family: "VCROSDMono";
+  text-shadow: black 2px 2px 1px, black -2px 2px 1px, black -2px -2px 1px, black 2px -2px 1px, black 0px 2px 1px, black 0px -2px 1px, black 2px 0px 1px, black -2px 0px 1px;
+}
+
+.font-center {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.font-footer {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 97.5%;
+  bottom: auto;
+  transform: translate(-50%, -97.5%);
+  -webkit-transform: translate(-50%, -97.5%);
+  -moz-transform: translate(-50%, -97.5%);
+  -ms-transform: translate(-50%, -97.5%);
+  -o-transform: translate(-50%, -97.5%);
+}
+
+.font-header {
+  position: absolute;
+	text-align: center;
+	left: 50%;
+	top: 2.5%;
+	bottom: auto;
+	transform: translate(-50%, -2.5%);
+	-webkit-transform: translate(-50%, -2.5%);
+	-moz-transform: translate(-50%, -2.5%);
+	-ms-transform: translate(-50%, -2.5%);
+	-o-transform: translate(-50%, -2.5%);
+}
